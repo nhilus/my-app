@@ -1,0 +1,13 @@
+import Link from 'next/link'
+import React from 'react'
+
+function Contact() {
+  return (
+    <div>
+      <h1 className='text-7xl'>Contact</h1>
+      <Link href="/"className='text-xl text-blue-500 inline-block mt-8'>back home</Link>
+    </div>
+  )
+}
+
+export default Contact
